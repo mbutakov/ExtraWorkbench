@@ -25,7 +25,9 @@ public class BlockWorkbenchEx extends Block {
 	private IIcon[] top;
 	
 	public BlockWorkbenchEx() {
-        super(Material.rock);
+        super(Material.wood);
+        this.setHardness(10.0F);
+        this.setResistance(6.0F);
 		setCreativeTab(CreativeTabs.tabDecorations);
 		this.setUnlocalizedName("Ammo Workbench");
 		this.setTextureName("extraworkbench:wb");

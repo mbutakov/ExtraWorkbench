@@ -26,6 +26,8 @@ public class BlockWorkbenchEx2 extends Block {
 	
 	public BlockWorkbenchEx2() {
         super(Material.wood);
+        this.setHardness(10.0F);
+        this.setResistance(6.0F);
 		setCreativeTab(CreativeTabs.tabDecorations);
 		this.setUnlocalizedName("Universal Workbench");
 		this.setTextureName("extraworkbench:wb");
